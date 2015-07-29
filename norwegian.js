@@ -3,13 +3,12 @@ $(document).ready(function() {
 
 var = Translate function(input) {
   var norwegian {
-    happy: "",
-    'new': "",
-    merry: "",
-    christmas: "",
-    and: "",
-    year: "",
-
+    happy: "lykkelig",
+    'new': "ny",
+    merry: "lystig",
+    christmas: "jul",
+    and: "og",
+    year: "år"
   }
 
   for (var i = 0; i < phraseArray.length; i++) {
