@@ -8,12 +8,11 @@ var phraseArray = [];
       phraseArray = (phrase.split(" "));
       console.log(phraseArray);
       return phraseArray;
+      $('translationOutput').append(Translation);
 
     })
   
 
-
-  console.log("after function ", phraseArray);
 
 
 });

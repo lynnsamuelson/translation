@@ -15,8 +15,8 @@ var Translate = (function() {
 
       for (var i = 0; i < input.length; i++) {
         if (norwegian[input[i]]) {
-          str += norwegian[input[i]];
-          console.log("str", str);
+          str += " " + norwegian[input[i]];
+          console.log("translation is: " + str);
         }    
       }
       return str
@@ -27,5 +27,4 @@ var Translate = (function() {
 
 var Translation = Translate.translatToNorwegian(["merry", "christmas"])
 console.log(Translation);
-
 

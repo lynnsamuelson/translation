@@ -1,12 +1,12 @@
 
 var Translate = (function() {
   var norwegian = {
-      happy: "lykkelig",
-      'new': "ny",
-      merry: "lystig",
-      christmas: "jul",
-      and: "og",
-      year: "år"
+      happy: "feliz",
+      'new': "nuevo",
+      merry: "alegre",
+      christmas: "christmas",
+      and: "y",
+      year: "year"
    };
  return {
   translatToNorwegian: function(input) {
