@@ -5,12 +5,14 @@ var phraseArray = [];
     $( '#translatebtn').click(function() {
       var phrase = $('#input').val();
       console.log(phrase);
-      phraseArray.push(phrase.split(" "));
+      phraseArray = (phrase.split(" "));
       console.log(phraseArray);
       return phraseArray;
 
     })
   
+
+
   console.log("after function ", phraseArray);
 
 
